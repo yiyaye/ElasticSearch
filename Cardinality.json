@@ -3,7 +3,7 @@
   "aggs": {
     "cardinate": {
       "cardinality": {
-        "field": "job.keyword"    #共有多少种工作类型，把job的类型为keyword类型，这样就不会分词，把它当作一个整体
+        "field": "job.keyword|#共有多少种工作类型，把job的类型为keyword类型，这样就不会分词，把它当作一个整体"
       }
     }
   }
